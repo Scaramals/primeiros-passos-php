@@ -5,6 +5,7 @@ $peso = 70;
 
 $imc = $peso/($altura*$altura);
 
+echo "IMC" . PHP_EOL;
 if($imc<18.5){
     echo "Seu IMC está baixo: $imc";
 }elseif($imc<=29.9){
